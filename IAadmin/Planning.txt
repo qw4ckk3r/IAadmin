@@ -1,4 +1,0 @@
-1. Guidance and Report Issue + Suggestion
-2. playlist update
-3. game update 
-4. rpg game development
