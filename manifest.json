@@ -1,0 +1,20 @@
+{
+    "name": "IAadmin",
+    "short_name": "IAadmin",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#4a4523",
+    "theme_color": "#2c2a21",
+    "icons": [
+        {
+            "src": "img/yelly.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/yelly.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
