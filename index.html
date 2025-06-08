@@ -72,6 +72,16 @@
         </script>              
     </div>
     </div>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(reg => console.log('✅ Service Worker registered:', reg))
+        .catch(err => console.error('❌ Service Worker registration failed:', err));
+    });
+  }
+</script>
 </body>
 <footer class="footer">
     &copy; 2025 ItikArleeda. All rights reserved.
